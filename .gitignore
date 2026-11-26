@@ -1,0 +1,28 @@
+# Gradle & Build outputs
+.gradle/
+build/
+app/build/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Local environment config
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Python cache
+**/__pycache__/
+*.py[cod]
+
+# Large prebuilt FFmpeg binary (download via README instructions)
+app/src/main/jniLibs/arm64-v8a/libffmpeg.so
+
+# OS generated files
+.DS_Store
+Thumbs.db

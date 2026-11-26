@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Back stacked media card (tilted subtle glass feel, stays inside safe zone) -->
+    <path
+        android:fillColor="#26FFFFFF"
+        android:pathData="M34,25h44c4.42,0 8,3.58 8,8v36c0,4.42 -3.58,8 -8,8H34c-4.42,0 -8,-3.58 -8,-8V33c0,-4.42 3.58,-8 8,-8z" />
+
+    <!-- Main frosted glass media prism card -->
+    <path
+        android:pathData="M30,30h48c4.42,0 8,3.58 8,8v38c0,4.42 -3.58,8 -8,8H30c-4.42,0 -8,-3.58 -8,-8V38c0,-4.42 3.58,-8 8,-8z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#66FFFFFF">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="84"
+                android:endY="84"
+                android:startX="24"
+                android:startY="30"
+                android:type="linear">
+                <item
+                    android:color="#45FFFFFF"
+                    android:offset="0.0" />
+                <item
+                    android:color="#1AFFFFFF"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle media sparkle accent dot (top-right inside glass card) -->
+    <path
+        android:fillColor="#B3E0F2FE"
+        android:pathData="M73,41m-3.2,0a3.2,3.2 0,1 1,6.4 0a3.2,3.2 0,1 1,-6.4 0" />
+
+    <!-- Bold geometric download arrow shaft + chevron -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,39c1.93,0 3.5,1.57 3.5,3.5v16.05l5.52,-5.52c1.37,-1.37 3.58,-1.37 4.95,0 1.37,1.37 1.37,3.58 0,4.95l-11.5,11.5c-1.37,1.37 -3.58,1.37 -4.95,0l-11.5,-11.5c-1.37,-1.37 -1.37,-3.58 0,-4.95 1.37,-1.37 3.58,-1.37 4.95,0l5.53,5.52V42.5c0,-1.93 1.57,-3.5 3.5,-3.5z" />
+
+    <!-- Crisp bottom save tray bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M37,74h34c1.66,0 3,1.34 3,3s-1.34,3 -3,3H37c-1.66,0 -3,-1.34 -3,-3s1.34,-3 3,-3z" />
+</vector>

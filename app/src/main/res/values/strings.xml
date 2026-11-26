@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MediaSaver</string>
+    <string name="share_label">保存到 MediaSaver</string>
+    <string name="notification_channel_downloads_name">媒体下载</string>
+    <string name="notification_channel_downloads_desc">显示视频、图集与音频的后台下载进度</string>
+</resources>
