@@ -5,19 +5,21 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+
+    <!-- Ultra-clean matte obsidian background with whisper-subtle vertical depth -->
     <path android:pathData="M0,0h108v108h-108z">
         <aapt:attr name="android:fillColor">
             <gradient
-                android:endX="108"
+                android:endX="54"
                 android:endY="108"
-                android:startX="0"
+                android:startX="54"
                 android:startY="0"
                 android:type="linear">
                 <item
-                    android:color="#F1F6FF"
+                    android:color="#191C24"
                     android:offset="0.0" />
                 <item
-                    android:color="#E2ECFF"
+                    android:color="#0E1016"
                     android:offset="1.0" />
             </gradient>
         </aapt:attr>
