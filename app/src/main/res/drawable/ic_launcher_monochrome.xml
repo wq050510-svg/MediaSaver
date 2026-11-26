@@ -4,19 +4,11 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-
-    <!-- Clean single-tone frame + download arrow for Android 13+ themed icons -->
-    <path
-        android:fillColor="#00000000"
-        android:pathData="M32,30h44c4.42,0 8,3.58 8,8v36c0,4.42 -3.58,8 -8,8H32c-4.42,0 -8,-3.58 -8,-8V38c0,-4.42 3.58,-8 8,-8z"
-        android:strokeWidth="4.2"
-        android:strokeColor="#FFFFFF" />
-
+    <!-- Minimalist bob-hair girl silhouette for Android 13+ monochrome themed icon -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M54,39c1.93,0 3.5,1.57 3.5,3.5v14.5l5.1,-5.1c1.37,-1.37 3.58,-1.37 4.95,0 1.37,1.37 1.37,3.58 0,4.95l-11.07,11.08c-1.37,1.37 -3.58,1.37 -4.96,0l-11.07,-11.08c-1.37,-1.37 -1.37,-3.58 0,-4.95 1.37,-1.37 3.58,-1.37 4.95,0l5.1,5.1V42.5c0,-1.93 1.57,-3.5 3.5,-3.5z" />
-
+        android:pathData="M54,28c-12.5,0 -21,9.5 -21,23.5c0,6 1.5,11 4,14c2.5,1.5 6.5,2 10,1.5c-4,-3 -6.5,-8.5 -6.5,-15c0,-8.5 5.5,-15 13.5,-15c8,0 13.5,6.5 13.5,15c0,6.5 -2.5,12 -6.5,15c3.5,0.5 7.5,0 10,-1.5c2.5,-3 4,-8 4,-14C75,37.5 66.5,28 54,28z" />
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M38,72.5h32c1.38,0 2.5,1.12 2.5,2.5s-1.12,2.5 -2.5,2.5H38c-1.38,0 -2.5,-1.12 -2.5,-2.5s1.12,-2.5 2.5,-2.5z" />
+        android:pathData="M34,80c2.5,-8.5 10.5,-12.5 20,-12.5c9.5,0 17.5,4 20,12.5H34z" />
 </vector>
